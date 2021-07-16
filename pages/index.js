@@ -213,7 +213,7 @@ export default function Home() {
   const TweetText = (props) => {
     return (
       <div style={{ backgroundColor: '#DEDCF4', padding: '14px', borderRadius: '10px' }}>
-        <img src='pages/assets/twit.svg' width='40px' height='40px' />
+        
         <p style={{ color: '#192A33', fontSize: '24px' }}>{props.content.tweetText}</p>
         <Button style={{ backgroundColor: '#1DA1F2', color: '#ffffff', textTransform: 'none', height: '30px' }}>Tweet</Button>
       </div>
@@ -244,23 +244,23 @@ export default function Home() {
         <div style={{ backgroundColor: '#5AAFE5', paddingTop: '1px', paddingLeft: '20px', paddingRight: '15px', paddingBottom: '20px' }}>
           <p style={{ color: '#ffffff', fontSize: '24px', fontWeight: 'bold' }}>Top Posts</p>
           <div class='flexbox-container' style={{ display: 'flex', flexDirection: 'row' }}>
-            <img style={{ width: '75px', height: '75px', backgroundColor: '#b2b2b2' }} />
+            
             <p style={{ fontSize: '18px', marginLeft: '18px'}}>Home Dental remedies for your teeth</p>
           </div>
           <div class='flexbox-container' style={{ display: 'flex', flexDirection: 'row' }}>
-            <img style={{ width: '75px', height: '75px', backgroundColor: '#b2b2b2' }} />
+           
             <p style={{ fontSize: '18px', marginLeft: '18px'}}>Home Dental remedies for your teeth</p>
           </div>
           <div class='flexbox-container' style={{ display: 'flex', flexDirection: 'row' }}>
-            <img style={{ width: '75px', height: '75px', backgroundColor: '#b2b2b2' }} />
+          
             <p style={{ fontSize: '18px', marginLeft: '18px'}}>Home Dental remedies for your teeth</p>
           </div>
           <div class='flexbox-container' style={{ display: 'flex', flexDirection: 'row' }}>
-            <img style={{ width: '75px', height: '75px', backgroundColor: '#b2b2b2' }} />
+            
             <p style={{ fontSize: '18px', marginLeft: '18px'}}>Home Dental remedies for your teeth</p>
           </div>
           <div class='flexbox-container' style={{ display: 'flex', flexDirection: 'row' }}>
-            <img style={{ width: '75px', height: '75px', backgroundColor: '#b2b2b2' }} />
+            
             <p style={{ fontSize: '18px', marginLeft: '18px'}}>Home Dental remedies for your teeth</p>
           </div>
         </div>
